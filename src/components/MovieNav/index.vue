@@ -1,10 +1,10 @@
 <template>
 	<div>
 		<ul>
-			<router-link to="/movie/city" tag="li" class="city">大连<i class="iconfont icon-lower-triangle"></i></router-link>
+			<router-link to="/movie/city" tag="li" activeClass="active">大连<i class="iconfont icon-lower-triangle"></i></router-link>
 			<router-link to="/movie/nowplaying" activeClass="active" tag="li">正在热映</router-link>
 			<router-link to="/movie/commingsoon" activeClass="active" tag="li">即将上映</router-link>
-			<router-link to="/movie/search"tag="li" class="sousuo"><i class="iconfont icon-sousuo"></i></router-link>
+			<router-link to="/movie/search"tag="li" activeClass="active" class="sousuo"><i class="iconfont icon-sousuo"></i></router-link>
 		</ul>
 	</div>
 </template>
